@@ -1,0 +1,60 @@
+.main-content
+{
+    color:white;
+    background-color:rgba(0, 0, 15, 0.05);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.round-border
+{
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:black;
+}
+
+#word-to-guess{
+    letter-spacing: 10px;
+}
+
+#error-msg{
+    visibility: hidden;
+}
+
+.score
+{
+    color:#8fd8f5;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.msg
+{
+    color:red;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hint{
+    color: #575757;
+    font-size: 60%;
+}
+
+.line-height{
+    line-height: 0.8;
+}
+
+body
+{
+    background-image: url("../images/hang-noose.jpg");
+    background-size: auto; 
+    background-repeat: repeat;
+    background-position: center center; 
+}
+
+hr
+{
+    height:1px;
+    width:60%;
+    background-color:#f9f9f9;
+}
